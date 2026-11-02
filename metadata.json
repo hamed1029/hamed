@@ -1,0 +1,6 @@
+{
+  "name": "ROOH OMAN | روح عُمان",
+  "description": "اكتشف عُمان... من الأماكن المعروفة إلى الكنوز المخفية — The authentic tourism, culture, governorates, and trip planning guide for the Sultanate of Oman.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

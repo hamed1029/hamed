@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --color-omani-primary: #173E35;
+  --color-omani-secondary: #245848;
+  --color-omani-gold: #D6B77A;
+  --color-omani-gold-light: #F4EAD3;
+  --color-omani-ivory: #F5F2E9;
+  --color-omani-bg: #FAF8F3;
+  --color-omani-text: #202A25;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F2E9;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6B77A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #245848;
+}
